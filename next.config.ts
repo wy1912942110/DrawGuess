@@ -1,5 +1,6 @@
-[build]
-command = "npm run build"
+import type { NextConfig } from "next";
 
-[[plugins]]
-package = "@netlify/plugin-nextjs"
+const nextConfig: NextConfig = {
+};
+
+export default nextConfig;
